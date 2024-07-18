@@ -1,3 +1,54 @@
+
 *{
-    margin
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:  Inter, sans-serif;
+    background-color: #7a7adb;
+    background-image:linear-gradient(277deg,#602f60 0%, #170e13 74%);
+    color:white;
+    min: height 100vh;
+}
+
+header,
+main,
+footer{
+    padding: 12px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.flex{
+    display: flex;
+}
+header{
+    justify-content: center;
+}
+nav p,
+nav a{
+    padding: 7px;
+}
+nav button{
+    padding: 5px;
+    border-radius: 20px;
+    height: 30px;
+    font-weight: 700;
+    border: none;
+    color:rgba(255,255,255,0.327) ;
+    background-color: rgba(255,255,255,0.327);
+
+}
+
+nav button:hover{
+    background-color: #ffffff96;
+    color: #00000095;
+}
+
+nav a{
+    text-decoration: none;
+
 }
